@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3d62;
+}
+
+div{
+    width: 250px;
+    height: 200px;
+    border: 25px solid;
+    border-image-source: linear-gradient(45deg, #f12711, #FDFC47, #24FE41);
+    border-image-slice: 1;
+}
